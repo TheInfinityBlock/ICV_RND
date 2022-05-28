@@ -1,4 +1,4 @@
-"""
+
 from flask import Flask, jsonify, request
   
 app = Flask(__name__)
@@ -13,8 +13,8 @@ def helloworld():
   
 if __name__ == '__main__':
     app.run(debug=True)
-"""
 
+"""
 from flask import Flask, request, jsonify
 from flask_restful import reqparse, abort, Api, Resource
 import mysql.connector
@@ -66,3 +66,4 @@ api.add_resource(HelloWorld,'/hello')
   
 if __name__=='__main__':
     app.run(debug=True)
+    """
