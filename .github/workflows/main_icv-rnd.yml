@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ICV-RND'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_60A592CCB7EC4232A1AC873AEA811A12 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A5ACA5BB59E4D1B95DF97AC53B2A17C }}
